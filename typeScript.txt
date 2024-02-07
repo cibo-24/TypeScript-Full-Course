@@ -1,0 +1,24 @@
+TypeScript, JS üzerine kurulu bir superset'tir. JS özelliklerine ek olarak bazı yazım syntaxları vardır. Ve işimizi çok kolaylaştırıcı işler yapar.
+
+Tarayıcımız typescript kodumuzu göremez. Compiler ederiz ve typescript kodunu tarayıcı JS olarak alır.
+
+
+Kurulum
+
+sudo npm i -g typescript
+
+Daha sonra package.json kurulumu
+
+npm init
+
+Daha sonra server kurulumu 
+
+npm install --save-dev lite-server
+
+TS dosyasını compiler etmek için
+
+tsc <filename.ts/>
+
+Sürekli compiler koduyla uğraşmamak için
+
+tsc <filename.ts/> -w
