@@ -61,3 +61,46 @@ let arrowFunc = () => {
     return console.log("TypeScript");
 }
 arrowFunc();
+
+// OverLoading - Bir şeyin üzerine binme, function üzerine binme
+
+// number
+
+function addOver(a: number, b:number):number;
+function addOver(a: string, b:string):string;
+
+function addOver(a: any, b:any):any {
+    return a+b
+}
+
+// number number ya da string string'e değişken yapısı veriyoruz.
+// neyi tanımlarsak onu alırız.
+let overLoad = addOver(4,5);
+console.log(overLoad);
+
+
+// Rest Parameters
+
+// Dizinin içerisini forEach ile dönüyoruz.
+// ...numbers değişkeni, number[] adlı diziye eşit olacaktır. Yani numbers bir number dizisi alır.
+// Rest parameters sonda olmak zorundadır.
+
+// Rest Parameters, numbers
+function toplamArr (a: string, ...numbers:number[]){
+    let total = 0;
+    numbers.forEach((num) => {
+        total += num;
+    })
+    return total;
+};
+
+console.log(toplamArr("Kenan",10,11,12,13));
+
+
+// Rest Parameters, String
+function birlestirString (message: string, ...names: string[]){
+    console.log(message + " " + names.join(","));
+}
+console.log(birlestirString("Merhaba" , "Kenan", "Fırat","ozan","tuba"));
+
+

@@ -41,3 +41,37 @@ var arrowFunc = function () {
     return console.log("TypeScript");
 };
 arrowFunc();
+function addOver(a, b) {
+    return a + b;
+}
+// number number ya da string string'e değişken yapısı veriyoruz.
+// neyi tanımlarsak onu alırız.
+var overLoad = addOver(4, 5);
+console.log(overLoad);
+// Rest Parameters
+// Dizinin içerisini forEach ile dönüyoruz.
+// ...numbers değişkeni, number[] adlı diziye eşit olacaktır. Yani numbers bir number dizisi alır.
+// Rest parameters sonda olmak zorundadır.
+// Rest Parameters, numbers
+function toplamArr(a) {
+    var numbers = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        numbers[_i - 1] = arguments[_i];
+    }
+    var total = 0;
+    numbers.forEach(function (num) {
+        total += num;
+    });
+    return total;
+}
+;
+console.log(toplamArr("Kenan", 10, 11, 12, 13));
+// Rest Parameters, String
+function birlestirString(message) {
+    var names = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        names[_i - 1] = arguments[_i];
+    }
+    console.log(message + " " + names.join(","));
+}
+console.log(birlestirString("Merhaba", "Kenan", "Fırat", "ozan", "tuba"));
