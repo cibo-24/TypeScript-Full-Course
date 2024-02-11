@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.props {
+  border: 2px solid black;
+  margin: 10px;
+  
+}
+.props-example {
+  color: red;
+}
+
+.handleEvents {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.events {
+  color: red;
+}
+
+.useState {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.useStateEx {
+  color: red;
+}
+
+.useReducer {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.useReducerEx {
+  color: red;
+}
+
+.useContext {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.useContextEx {
+  color: red;
+}
+
+.useRef {
+  border: 2px solid black;
+  margin: 10px;
+}
+
+.useRefEx {
+  color: red;
+}

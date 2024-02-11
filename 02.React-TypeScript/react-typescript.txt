@@ -1,0 +1,5 @@
+
+React ile TypeScript kurulumunu gerçekleştirmek için,
+
+npx creact-react-app <filename> --template typescript 
+
