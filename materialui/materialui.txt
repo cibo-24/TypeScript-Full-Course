@@ -1,0 +1,8 @@
+
+Kurulumu yapmak için, 
+
+npm install @mui/material @emotion/react @emotion/styled
+
+İcon kurulumu yapmak için, 
+
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
