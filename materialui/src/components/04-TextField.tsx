@@ -37,4 +37,4 @@ const LessonTextField = () => {
     )
 }
 
-export default LessonTextField
+export default LessonTextField;
