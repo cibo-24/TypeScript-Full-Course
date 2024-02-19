@@ -10,6 +10,8 @@ import SelectLesson from './components/07-Select';
 import SelectMultiple from './components/08-SelectMultiple';
 import CheckboxLesson from './components/09-Checkbox';
 import CheckBoxMultiple from './components/10-CheckBoxMultiple';
+import AutoComplateLesson from './components/11-AutoComplate';
+import BoxLesson from './components/12-Box';
 
 
 
@@ -26,6 +28,8 @@ function App() {
       {/* <SelectMultiple /> */}
       {/* <CheckboxLesson /> */}
       {/* <CheckBoxMultiple /> */}
+      {/* <AutoComplateLesson /> */}
+      <BoxLesson />
     </div>
   );
 }
