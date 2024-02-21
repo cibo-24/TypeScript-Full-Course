@@ -12,8 +12,7 @@ import CheckboxLesson from './components/09-Checkbox';
 import CheckBoxMultiple from './components/10-CheckBoxMultiple';
 import AutoComplateLesson from './components/11-AutoComplate';
 import BoxLesson from './components/12-Box';
-
-
+import StackLesson from './components/13-Stack';
 
 function App() {
   return (
@@ -29,7 +28,8 @@ function App() {
       {/* <CheckboxLesson /> */}
       {/* <CheckBoxMultiple /> */}
       {/* <AutoComplateLesson /> */}
-      <BoxLesson />
+      {/* <BoxLesson /> */}
+      <StackLesson />
     </div>
   );
 }
