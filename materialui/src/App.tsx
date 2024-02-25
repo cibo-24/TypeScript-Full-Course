@@ -15,6 +15,8 @@ import BoxLesson from './components/12-Box';
 import StackLesson from './components/13-Stack';
 import GridLesson from './components/14-Grid';
 import CardLesson from './components/15-Card';
+import AccordionLesson from './components/16-Accordion';
+import AppBarLesson from './components/17-AppBar';
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
       {/* <BoxLesson /> */}
       {/* <StackLesson /> */}
       {/* <GridLesson /> */}
-      <CardLesson />
+      {/* <CardLesson /> */}
+      {/* <AccordionLesson /> */}
+      <AppBarLesson />
     </div>
   );
 }
