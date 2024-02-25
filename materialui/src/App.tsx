@@ -13,13 +13,15 @@ import CheckBoxMultiple from './components/10-CheckBoxMultiple';
 import AutoComplateLesson from './components/11-AutoComplate';
 import BoxLesson from './components/12-Box';
 import StackLesson from './components/13-Stack';
+import GridLesson from './components/14-Grid';
+import CardLesson from './components/15-Card';
 
 function App() {
   return (
     <div className="App">
-    {/* <TypographyLesson /> */}
-     {/* <LessonButton /> */}
-     {/* <LessonButtonGroup /> */}
+      {/* <TypographyLesson /> */}
+      {/* <LessonButton /> */}
+      {/* <LessonButtonGroup /> */}
       {/* <LessonTextField /> */}
       {/* <LessonRadioGroup /> */}
       {/* <RadioGroupExample /> */}
@@ -29,7 +31,9 @@ function App() {
       {/* <CheckBoxMultiple /> */}
       {/* <AutoComplateLesson /> */}
       {/* <BoxLesson /> */}
-      <StackLesson />
+      {/* <StackLesson /> */}
+      {/* <GridLesson /> */}
+      <CardLesson />
     </div>
   );
 }
